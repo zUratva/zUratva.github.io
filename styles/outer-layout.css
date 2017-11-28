@@ -140,7 +140,7 @@ div {
 .side-pane {
     width: 210px;
     background-color: rgba(255, 255, 255, 0.8);
-    overflow-y: scroll;
+    overflow: auto;
     float:left;
 }
 
@@ -169,7 +169,7 @@ div {
     margin-left: 210px;
     font-size: 17px;
     padding: 20px;
-    min-height: calc(100vh - 310px);
+    min-height: calc(100vh - 365px);
     overflow:auto;
 }
 
@@ -182,7 +182,7 @@ div {
     font-size: 0px;
     border: 2px solid #ff944d;
     position: fixed;
-    width: 100%;
+    width: calc(100% - 4px);
     bottom: 0px;
     background: black;
     z-index: 1;
